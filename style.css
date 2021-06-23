@@ -1,0 +1,123 @@
+.cover{
+    /* background-image: url(32cdfcca1443fb10af191047ece56f39.jpg); */
+    height: 50vh;
+    width: 100%;
+    top: 0;
+    /* padding: 20px 50px; */
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hd-1{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: green;
+    font-family: 'amaranth';
+}
+
+.hd-2{
+    letter-spacing: 3px;
+}
+
+@media all and (max-width:800px){
+    body{
+        font-size: 0.9rem;
+    }
+    .hd-1{
+        font-size: 1.3rem;
+    }
+    header{
+        flex-direction: column;
+        padding: 10px !important;
+    }
+}
+
+.about{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* border: 1px solid white;
+    background: rgb(156, 156, 156); */
+}
+
+.about:hover{
+    box-shadow: 3px 3px 7px rgb(138, 138, 138);
+    transition: all 0.7s ease;
+}
+
+.ab-1{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2%;
+}
+
+.ab-2{
+    font-family: 'amaranth';
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 3% 2% 1% 2%;
+}
+
+.sign-con{
+    font-family: 'amaranth';
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+}
+
+form{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.sign-con h2{
+    text-align: center;
+}
+
+.signbody{
+    font-family: 'amaranth';
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 1px solid white;
+}
+
+.signbody:hover{
+    border: 1px solid black;
+    background: grey;
+}
+
+.sb-1{
+    margin-top:1%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.conbody{
+    border: 1px solid black;
+    margin: 5% 3% 5% 3%;
+    font-family: 'amaranth';
+}
+
+.conbody-1{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.conbody-2{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
